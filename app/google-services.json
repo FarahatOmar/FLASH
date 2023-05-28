@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792815134033",
+    "project_id": "thedelivery-1aa80",
+    "storage_bucket": "thedelivery-1aa80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792815134033:android:c52763f2a603f25be15f70",
+        "android_client_info": {
+          "package_name": "com.example.thedelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792815134033-rn6lp6o3fnflf2lgsdlak37d6mq0suti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdsdLrKzvIU3OERJ07jSQij1T6K1oFjaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792815134033-rn6lp6o3fnflf2lgsdlak37d6mq0suti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
