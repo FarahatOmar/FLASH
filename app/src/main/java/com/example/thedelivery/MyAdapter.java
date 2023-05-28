@@ -56,6 +56,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         DataClass delivery = filteredList.get(position);
 
         // Set the delivery data to the corresponding views in the item layout
+        holder.TrackingTextView.setText("Tracking Number: " + delivery.getKey());
+
         holder.nameTextView.setText("Sender: " + delivery.getDataName());
         holder.addressTextView.setText("Address: " + delivery.getDataAddress());
         holder.pickupTextView.setText("Pickup Address: " + delivery.getDataPickup());
@@ -71,6 +73,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
+        TextView TrackingTextView;
         TextView nameTextView;
         TextView addressTextView;
         TextView pickupTextView;
@@ -81,6 +84,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            TrackingTextView = itemView.findViewById(R.id.TrackingTextView);
             nameTextView = itemView.findViewById(R.id.nameTextView);
             addressTextView = itemView.findViewById(R.id.addressTextView);
             pickupTextView = itemView.findViewById(R.id.pickupTextView);
